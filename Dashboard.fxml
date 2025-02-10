@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="608.0" prefWidth="1054.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe_management.DashboardController">
+   <children>
+      <HBox fx:id="hbox" layoutX="84.0" layoutY="110.0" prefHeight="123.0" prefWidth="887.0" spacing="20.0">
+         <children>
+            <ImageView fx:id="img1" fitHeight="123.0" fitWidth="161.0" layoutX="410.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="img2" fitHeight="123.0" fitWidth="161.0" layoutX="10.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="img3" fitHeight="123.0" fitWidth="161.0" layoutX="171.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="img4" fitHeight="123.0" fitWidth="161.0" layoutX="332.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="img5" fitHeight="123.0" fitWidth="161.0" layoutX="493.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true" />
+         </children>
+      </HBox>
+      <Button fx:id="selectid" layoutX="94.0" layoutY="424.0" mnemonicParsing="false" onAction="#selectid1" prefHeight="37.0" prefWidth="186.0" text="Select a Item" />
+      <Button fx:id="submitidd" layoutX="94.0" layoutY="497.0" mnemonicParsing="false" onAction="#submitid2" text="Submit" />
+      <Label layoutX="280.0" layoutY="28.0" text="Welcome to Naim Cafe">
+         <font>
+            <Font name="Bank Gothic Light BT" size="45.0" />
+         </font>
+      </Label>
+      <Button fx:id="updateid" layoutX="167.0" layoutY="497.0" mnemonicParsing="false" onAction="#updateid1" text="Update" />
+      <Button fx:id="deleteid" layoutX="238.0" layoutY="497.0" mnemonicParsing="false" onAction="#deleteid1" text="Delete" />
+   </children>
+</AnchorPane>

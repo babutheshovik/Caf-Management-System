@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cafe_management.FXMLDocumentController">
+   <children>
+      <Label layoutX="170.0" layoutY="28.0" text="Login Page of Cafe Management">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="numid" layoutX="226.0" layoutY="81.0" promptText="Enter your number" />
+      <TextField fx:id="passid" layoutX="226.0" layoutY="134.0" promptText="Enter your password" />
+      <Button fx:id="loginid" layoutX="263.0" layoutY="188.0" mnemonicParsing="false" onAction="#loginid1" prefHeight="25.0" prefWidth="75.0" text="Login" />
+      <Button fx:id="newid" layoutX="233.0" layoutY="244.0" mnemonicParsing="false" onAction="#newid1" text="Create a new account?" />
+   </children>
+</AnchorPane>
